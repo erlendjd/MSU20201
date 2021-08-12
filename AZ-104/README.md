@@ -1,7 +1,4 @@
-
-
 https://github.com/kramit/AZ104-Notes
-
 
 # AZ-104 Notes
 
@@ -15,10 +12,9 @@ Skills Outline
 
 https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4pCWy
 
-
 ## Microsoft Learn Modules
 
-6 Parts to add to your Microsoft Learn Library  
+6 Parts to add to your Microsoft Learn Library
 
 https://docs.microsoft.com/en-us/learn/paths/az-104-administrator-prerequisites/
 
@@ -32,13 +28,12 @@ https://docs.microsoft.com/en-us/learn/paths/az-104-manage-virtual-networks/
 
 https://docs.microsoft.com/en-us/learn/paths/az-104-monitor-backup-resources/
 
-## YouTube recommendations 
+## YouTube recommendations
 
 FreeCodeCamp
 https://www.youtube.com/watch?v=10PbGbTUSAg
 
 ## Exam to documentation mapping
-
 
 <h3>Manage Azure identities and governance (15-20%)</h3>
 <p><strong>Manage Azure AD objects</strong></p>
@@ -51,9 +46,16 @@ https://www.youtube.com/watch?v=10PbGbTUSAg
 <li><a href="https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureaduser">New-AzureADUser</a></li>
 </ul>
 </li>
+<li>create administrative units
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-manage">Manage administrative units in Azure Active Directory</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-add-manage-users">Add and manage users in an administrative unit in Azure Active Directory</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-add-manage-groups">Add and manage groups in an administrative unit in Azure Active Directory</a></li>
+</ul>
+</li>
 <li>manage user and group properties
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal">Add or update a user&#8217;s profile information using Azure Active Directory</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal">Add or update a user’s profile information using Azure Active Directory</a></li>
 <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-settings-azure-portal">Edit your group information using Azure Active Directory</a></li>
 </ul>
 </li>
@@ -207,6 +209,12 @@ https://www.youtube.com/watch?v=10PbGbTUSAg
 <li>configure Azure AD Authentication for a storage account
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad">Authorize access to blobs and queues using Azure Active Directory</a></li>
+</ul>
+</li>
+<li>configure access to Azure Files
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-enable">Overview - on-premises Active Directory Domain Services authentication over SMB for Azure file shares</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable?tabs=azure-portal">Enable Azure Active Directory Domain Services authentication on Azure Files</a></li>
 </ul>
 </li>
 </ul>
@@ -383,7 +391,7 @@ https://www.youtube.com/watch?v=10PbGbTUSAg
 <li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview">Virtual network peering overview</a></li>
 <li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq#vnet-peering">Azure Virtual Network frequently asked questions (FAQ) VNet Peering</a></li>
 <li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-networks-portal">Tutorial: Connect virtual networks with virtual network peering using the Azure portal</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/create-peering-different-deployment-models">Create a virtual network peering &#8211; different deployment models, same subscription</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/create-peering-different-deployment-models">Create a virtual network peering – different deployment models, same subscription</a></li>
 <li><a href="https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints">Create, change, or delete a virtual network peering</a></li>
 </ul>
 </li>
